@@ -80,3 +80,21 @@ p {
 .custom-link{
     color: #ffffff;
 }
+.microsoft-logos {
+    display: flex;
+    justify-content: left;
+    align-items: top;
+    margin: 0px 0;
+    margin-top: 0%;
+}
+
+.microsoft-logos img {
+    margin: 0 20px;
+    width: 100px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.microsoft-logos img:hover {
+    transform: scale(1.1);
+}
